@@ -261,6 +261,7 @@ module RailsAdmin
       def type_lookup(name, field)
         {
           "Array"          => { :type => :serialized },
+          "RawArray"       => { :type => :serialized },
           "BigDecimal"     => { :type => :decimal },
           "Boolean"        => { :type => :boolean },
           "BSON::ObjectId" => { :type => :bson_object_id, :serial? => (name == primary_key) },
