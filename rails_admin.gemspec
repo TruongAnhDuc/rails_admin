@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'coffee-rails', '~> 3.1'
   spec.add_dependency 'haml', '~> 3.1'
   spec.add_dependency 'jquery-rails', '~> 2.1'
-  spec.add_dependency 'kaminari', '~> 0.14'
+  spec.add_dependency 'kaminari', '~> 0.13'
   spec.add_dependency 'rack-pjax', '~> 0.6'
   spec.add_dependency 'rails', '~> 3.1'
   spec.add_dependency 'remotipart', '~> 1.0'
