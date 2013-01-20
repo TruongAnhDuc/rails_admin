@@ -269,6 +269,7 @@ module RailsAdmin
           "DateTime"       => { :type => :datetime },
           "ActiveSupport::TimeWithZone" => { :type => :datetime },
           "Float"          => { :type => :float },
+          "Binary"         => { :type => :binary },
           "Hash"           => { :type => :serialized },
           "Money"          => { :type => :serialized },
           "Integer"        => { :type => :integer },
