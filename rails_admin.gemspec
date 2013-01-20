@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'builder', '~> 3.0'
   spec.add_dependency 'coffee-rails', '~> 3.1'
   spec.add_dependency 'haml', '~> 3.1'
-  spec.add_dependency 'jquery-rails', '~> 2.1'
+  spec.add_dependency 'jquery-rails', '~> 1.0.19'
   spec.add_dependency 'kaminari', '~> 0.13'
   spec.add_dependency 'rack-pjax', '~> 0.6'
   spec.add_dependency 'rails', '~> 3.1'
